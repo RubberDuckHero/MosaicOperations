@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { exit } from "@tauri-apps/api/app";
 import Lobby from "./Lobby.jsx";
-import "./custom.css";
+import "./App.css";
 
 function App() {
   const [gameStarted, setGameStarted] = useState(false);
