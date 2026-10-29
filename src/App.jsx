@@ -28,7 +28,7 @@ function App() {
     <main className="container">
       {!gameStarted && !lobbyStarted ? (
         <div className="menu vertical">
-          <h1>Arena Ball</h1>
+          <h1>Arenaball</h1>
           <div className="btn-group">
             <button className="btn" onClick={handleLobby}>Lobby</button>
             <button className="btn" onClick={handleQuit}>Quit</button>

@@ -18,9 +18,10 @@
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 1rem;
   left: 1rem;
   font-size: 0.8rem;
   color: #777;
+  pointer-events: none;
 }
