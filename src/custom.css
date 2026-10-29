@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  margin-top: 50vh;
 }
 
 .btn-group {
