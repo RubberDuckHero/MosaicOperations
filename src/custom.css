@@ -1,0 +1,26 @@
+/* Custom styles for menu layout and footer */
+.menu.vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.btn-group .btn {
+  width: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  font-size: 0.8rem;
+  color: #777;
+}
