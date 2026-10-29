@@ -12,13 +12,34 @@
   font-weight: 400;
 
   color: #0f0f0f;
-  background-color: #e0e0e0;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+/* Custom styles */
+.menu.vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.btn-group .btn {
+  width: 100%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  font-size: 0.8rem;
+  color: #777;
+  pointer-events: none;
 }
 
 .container {
